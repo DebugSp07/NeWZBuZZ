@@ -1,0 +1,35 @@
+.custom-modal {
+    border-radius: 10px;
+  }
+  
+  .modal-content {
+    display: flex;
+  }
+  
+  .modal-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .modal-details {
+    flex: 1;
+  }
+  
+  .modal-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .modal-details .modal-date {
+    color: #777;
+    font-size: 0.8rem;
+  }
+  
+  .modal-details .modal-summary {
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+  

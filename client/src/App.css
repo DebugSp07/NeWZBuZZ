@@ -1,0 +1,55 @@
+.topnews-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, each occupying 1 fraction of available space */
+  gap: 20px; /* Gap between the two components */
+} 
+
+.content-container{
+  margin: 20px ;
+  /* background-color: black; */
+}
+
+.newcard, .top-headlines {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align content vertically */
+}
+
+.newcard h1, .top-headlines h1 {
+  color: #333; /* Default color */
+}
+
+/* Dark mode */
+.dark-mode .newcard h1, .dark-mode .top-headlines h1 {
+  color: #fff; /* Color for dark mode */
+}
+
+.App {
+  border-left: 20px solid #333; /* Left border */
+  border-right: 20px solid #333; /* Right border */
+}
+
+
+/* Additional CSS for mobile screens */
+@media screen and (max-width: 768px) {
+
+  .topnews-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Two columns, each occupying 1 fraction of available space */
+    gap: 20px; /* Gap between the two components */
+  } 
+  
+  .content-container{
+    display: grid;
+    grid-template-columns: 1fr; /* Two columns, each occupying 1 fraction of available space */
+    gap: 20px;
+    
+  }
+  
+  .App {
+    border: none; /* Left border */
+     /* Right border */
+  }
+ 
+
+}
