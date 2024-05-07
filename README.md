@@ -30,10 +30,16 @@ This will install all the required dependencies listed in the `package.json` fil
 5. # npm install styled-components  
 
 
-#### In Server
-1. # npm init -y 
-2. # npm i express 
-3. # npm i nodemon -D 
+#### In Server Run this Command 
+1.  ```bash
+    npm init -y
+```
+2.  ```bash
+      npm i express 
+```
+3.  ```bash
+     npm i nodemon -D 
+```
 
 
 
