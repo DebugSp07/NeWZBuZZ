@@ -24,7 +24,8 @@ This will install all the required dependencies listed in the `package.json` fil
 - `styled-components`: Library for styling React components with CSS.
 - `express`: Web framework for Node.js used to create the server.
 - `axios`: Promise-based HTTP client for making requests to the API.
-2. ```bash
+2.
+  ```bash
    npm install react-responsive-modal --save
   ```
 3. ```bash
@@ -39,13 +40,16 @@ This will install all the required dependencies listed in the `package.json` fil
 
 
 #### In Server Run this Command 
-1.  ```bash
+1.
+    ```bash
     npm init -y
 ```
-2.    ```bash
+2.
+```bash
       npm i express 
 ```
-3.    ```bash
+3.
+ ```bash
      npm i nodemon -D 
 ```
 
