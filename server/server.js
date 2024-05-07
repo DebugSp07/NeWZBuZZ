@@ -1,5 +1,5 @@
 const express = require('express');
-const { getPolitcsData, getSportsData, getGeneralData } = require('./StaticData');
+const { getPolitcsData, getSportsData, getGeneralData } = require('./staticData');
 
 const app = express();
 
