@@ -24,20 +24,28 @@ This will install all the required dependencies listed in the `package.json` fil
 - `styled-components`: Library for styling React components with CSS.
 - `express`: Web framework for Node.js used to create the server.
 - `axios`: Promise-based HTTP client for making requests to the API.
-2. # npm install react-responsive-modal --save
-3. # npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
-4. # npm i --save @fortawesome/free-brands-svg-icons
-5. # npm install styled-components  
+2. ```bash
+   npm install react-responsive-modal --save
+  ```
+3. ```bash
+    npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+   ```
+4. ```bash
+   npm i --save @fortawesome/free-brands-svg-icons
+    ```
+5.  ```bash
+    npm install styled-components
+     ```
 
 
 #### In Server Run this Command 
 1.  ```bash
     npm init -y
 ```
-2.  ```bash
+2.    ```bash
       npm i express 
 ```
-3.  ```bash
+3.    ```bash
      npm i nodemon -D 
 ```
 
