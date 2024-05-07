@@ -28,13 +28,18 @@ This will install all the required dependencies listed in the `package.json` fil
   ```bash
    npm install react-responsive-modal --save
   ```
-3. ```bash
+  
+3.
+    ```bash
     npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
    ```
-4. ```bash
+   
+5.
+  ```bash
    npm i --save @fortawesome/free-brands-svg-icons
     ```
-5.  ```bash
+   
+6.  ```bash
     npm install styled-components
      ```
 
